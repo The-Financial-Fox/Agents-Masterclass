@@ -112,7 +112,7 @@ if uploaded_file:
             {"role": "system", "content": "You are a financial data visualization and storytelling expert."},
             {"role": "user", "content": prompt}
         ],
-        model="llama3-8b-8192",
+        model="llama-3.3-70b-versatile",
     )
 
     st.markdown(response.choices[0].message.content)

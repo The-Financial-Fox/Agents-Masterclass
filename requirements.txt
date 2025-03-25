@@ -1,1 +1,7 @@
-#This is where you add libraries
+streamlit
+pandas
+matplotlib
+openpyxl
+prophet
+python-dotenv
+groq
